@@ -42,7 +42,7 @@
     rightView.translatesAutoresizingMaskIntoConstraints = NO;
     bottomView.translatesAutoresizingMaskIntoConstraints = NO;
   
-    
+#pragma mark -----------------自动布局方法1 ----------------
 //    //leftView的上 = self.view的上+20
 //    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:leftView
 //                                                          attribute:NSLayoutAttributeTop
@@ -139,6 +139,8 @@
 //                                                          attribute:NSLayoutAttributeBottom
 //                                                         multiplier:1
 //                                                           constant:-20]];
+    
+#pragma mark -----------------自动布局方法2 ----------------
     
     //创建VFL约束字符串
     
